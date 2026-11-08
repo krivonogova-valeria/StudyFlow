@@ -1,0 +1,24 @@
+:root {
+  --primary: #5b5bf0;
+  --primary-dark: #4b49c8;
+  --primary-soft: #ecebff;
+  --bg: #f4f5fb;
+  --card: #ffffff;
+  --text: #1c1d33;
+  --muted: #6b6d86;
+  --border: #e4e6f2;
+
+  --green: #1f8f68;
+  --green-soft: #dff5ec;
+  --amber: #b36b00;
+  --amber-soft: #fdeec7;
+  --red: #c7352f;
+  --red-soft: #fde4e2;
+
+  --radius: 18px;
+  --radius-sm: 14px;
+  --shadow: 0 6px 20px rgba(91, 91, 240, 0.1);
+  --gradient: linear-gradient(135deg, #6c6cf2, #4b6be6);
+
+  --font: "Inter", "Segoe UI", system-ui, sans-serif;
+}
