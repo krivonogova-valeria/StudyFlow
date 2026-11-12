@@ -1,0 +1,93 @@
+:root {
+  --primary: #5b5bf0;
+  --primary-dark: #4b49c8;
+  --primary-soft: #ecebff;
+  --bg: #f4f5fb;
+  --card: #ffffff;
+  --text: #1c1d33;
+  --muted: #6b6d86;
+  --border: #e4e6f2;
+
+  --green: #1f8f68;
+  --green-soft: #dff5ec;
+  --amber: #b36b00;
+  --amber-soft: #fdeec7;
+  --red: #c7352f;
+  --red-soft: #fde4e2;
+
+  --track: #e9eaf7;
+  --on-primary: #ffffff;
+  --shadow-btn: rgba(91, 91, 240, 0.35);
+  --label: #3b3d5c;
+  --toast-bg: #23244a;
+  --bar-gradient: linear-gradient(90deg, #6c6cf2, #3b8be6);
+
+  --radius: 18px;
+  --radius-sm: 14px;
+  --shadow: 0 6px 20px rgba(91, 91, 240, 0.1);
+  --gradient: linear-gradient(135deg, #6a6af5 0%, #4b5de4 100%);
+
+  --font: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+:root[data-theme="light-custom"] {
+  --primary: #D05A87;
+  --primary-dark: #B8446F;
+  --primary-soft: #F4D9E3;
+  --bg: #F3EBDE;
+  --card: #FBF7F0;
+  --text: #3B2A31;
+  --muted: #8C7A7F;
+  --border: #E3D6C4;
+
+  --green: #42979A;
+  --green-soft: #D3E7E6;
+  --amber: #B36B00;
+  --amber-soft: #FAEBD2;
+  --red: #C2410C;
+  --red-soft: #FBE1D6;
+
+  --track: #EFE5D6;
+  --on-primary: #ffffff;
+  --shadow-btn: rgba(208, 90, 135, 0.35);
+  --label: #5A444C;
+  --toast-bg: #3B2A31;
+  --bar-gradient: linear-gradient(90deg, #D05A87, #42979A);
+
+  --shadow: 0 6px 20px rgba(208, 90, 135, 0.14);
+  --gradient: linear-gradient(135deg, #D05A87 0%, #B8446F 100%);
+}
+
+:root[data-theme="dark-custom"] {
+  --primary: #9BBCB7;
+  --primary-dark: #7FA39E;
+  --primary-soft: #2F403D;
+  --bg: #23160E;
+  --card: #2E1E15;
+  --text: #F3EBDE;
+  --muted: #A69A92;
+  --border: #3D2B20;
+
+  --green: #E8B6B9;
+  --green-soft: #3D2A2B;
+  --amber: #D48311;
+  --amber-soft: #382914;
+  --red: #E58A8A;
+  --red-soft: #3D1F1E;
+
+  --track: #3A2A21;
+  --on-primary: #23160E;
+  --shadow-btn: rgba(0, 0, 0, 0.45);
+  --label: #D9CFC6;
+  --toast-bg: #3D2B20;
+  --bar-gradient: linear-gradient(90deg, #9BBCB7, #E8B6B9);
+
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  --gradient: linear-gradient(135deg, #9BBCB7 0%, #7FA39E 100%);
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}

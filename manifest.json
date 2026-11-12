@@ -1,0 +1,17 @@
+{
+  "name": "StudyFlow",
+  "short_name": "StudyFlow",
+  "description": "Планировщик учёбы: расписание, задачи, дедлайны и карточки",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3EBDE",
+  "theme_color": "#5b5bf0",
+  "lang": "ru",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,21 @@
+.onb { justify-content: space-between; text-align: center; padding-top: 48px; }
+.onb-art { flex: 1; display: flex; align-items: center; justify-content: center; }
+.onb-art svg { width: min(78%, 300px); height: auto; }
+.onb h1 { font-size: 1.7rem; margin-bottom: 10px; }
+.onb p { color: var(--muted); max-width: 320px; margin: 0 auto; }
+.dots { display: flex; gap: 8px; justify-content: center; margin: 22px 0; }
+.dot { width: 8px; height: 8px; border-radius: 99px; background: #cfd0f2; transition: width 0.25s, background 0.25s; }
+.dot.on { width: 28px; background: var(--primary); }
+.stack { display: grid; gap: 10px; }
+
+.auth h1 { font-size: 1.8rem; margin-top: 12px; }
+.auth .sub { color: var(--muted); margin: 8px 0 22px; }
+.back { background: none; border: 0; padding: 6px 10px 6px 0; align-self: flex-start; }
+.back .lucide { width: 24px; height: 24px; }
+.input-wrap { position: relative; }
+.input-wrap .input { padding-right: 48px; }
+.eye { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); background: none; border: 0; padding: 8px 10px; color: var(--muted); }
+.right { text-align: right; margin: -4px 0 16px; }
+.divider { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 0.85rem; margin: 18px 0; }
+.divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.foot { text-align: center; margin-top: 20px; color: var(--muted); }
